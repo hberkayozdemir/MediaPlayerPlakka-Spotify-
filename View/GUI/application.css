@@ -1,0 +1,16 @@
+.loginbodybg{
+    -fx-background-image:url('Images/BackGround.png') ;
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+
+}
+
+.RegisterBodybg{
+
+
+    -fx-background-image:url('Images/RegisterBackGround.jpg') ;
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+}

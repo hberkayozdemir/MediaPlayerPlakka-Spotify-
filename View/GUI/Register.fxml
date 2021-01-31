@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" styleClass="RegisterBodybg" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Management.LoginProccess">
+   <children>
+      <Pane prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="228.0" prefHeight="101.0" prefWidth="225.0" text="Plakka" textFill="WHITE">
+               <font>
+                  <Font name="Dubai Light" size="56.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="363.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#RegisterScreenRegisterBtn" prefHeight="49.0" prefWidth="283.0" style="-fx-background-color: #1b1b1b;" text="Register" textFill="WHITE">
+         <font>
+            <Font name="Dubai Light" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="66.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#RegisterScreenBackBtn" prefHeight="49.0" prefWidth="263.0" style="-fx-background-color: #1b1b1b;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Dubai Light" size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="RegisterScreenNS" layoutX="492.0" layoutY="180.0" prefHeight="30.0" prefWidth="182.0" />
+      <TextField fx:id="RegisterScreenPwd" layoutX="492.0" layoutY="317.0" prefHeight="30.0" prefWidth="182.0" />
+      <TextField fx:id="RegisterScreenCountry" layoutX="492.0" layoutY="229.0" prefHeight="30.0" prefWidth="182.0" />
+      <TextField fx:id="RegisterScreenPwdAgain" layoutX="492.0" layoutY="366.0" prefHeight="30.0" prefWidth="182.0" />
+      <TextField fx:id="RegisterScreenId" layoutX="492.0" layoutY="274.0" prefHeight="30.0" prefWidth="182.0" />
+      <TextField fx:id="RegisterScreenPhone" layoutX="492.0" layoutY="132.0" prefHeight="30.0" prefWidth="182.0" />
+      <Label layoutX="357.0" layoutY="273.0" prefHeight="30.0" prefWidth="113.0" text="ID :" textFill="WHITE">
+         <font>
+            <Font name="Dubai Light" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="316.0" prefHeight="30.0" prefWidth="113.0" text="Password :" textFill="WHITE">
+         <font>
+            <Font name="Dubai Light" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="365.0" prefHeight="32.0" prefWidth="133.0" text="Password again : " textFill="WHITE">
+         <font>
+            <Font name="Dubai Light" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="132.0" prefHeight="30.0" prefWidth="113.0" text="Phone :" textFill="WHITE">
+         <font>
+            <Font name="Dubai Light" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="179.0" prefHeight="32.0" prefWidth="133.0" text="Name/Surname :" textFill="WHITE">
+         <font>
+            <Font name="Dubai Light" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="228.0" prefHeight="30.0" prefWidth="113.0" text="Country" textFill="WHITE">
+         <font>
+            <Font name="Dubai Light" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
